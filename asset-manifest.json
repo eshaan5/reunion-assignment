@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/reunion-assignment/static/css/main.ea50e152.css",
+    "main.js": "/reunion-assignment/static/js/main.a9cf2520.js",
+    "static/js/787.23627551.chunk.js": "/reunion-assignment/static/js/787.23627551.chunk.js",
+    "index.html": "/reunion-assignment/index.html",
+    "main.ea50e152.css.map": "/reunion-assignment/static/css/main.ea50e152.css.map",
+    "main.a9cf2520.js.map": "/reunion-assignment/static/js/main.a9cf2520.js.map",
+    "787.23627551.chunk.js.map": "/reunion-assignment/static/js/787.23627551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea50e152.css",
+    "static/js/main.a9cf2520.js"
+  ]
+}
