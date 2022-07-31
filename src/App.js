@@ -3,6 +3,8 @@ import Filter from "./components/filter/Filter";
 import HouseCards from "./components/housecards/HouseCards";
 import products from "./products";
 import { useState } from "react";
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
 
 function App() {
   const [prod, setProd] = useState(products);
@@ -33,12 +35,11 @@ function App() {
     setProd(newProd);
   };
 
-  /* useEffect(() => {
-    filter();
-  }, [location, price, type]); */
-
   return (
     <div className="App">
+      <Navbar />
+      <hr />
+      <Header />
       <Filter setLocation={setLocation} setRange={setRange} setType={setType} filter={filter} />
       <HouseCards products={prod} />
     </div>

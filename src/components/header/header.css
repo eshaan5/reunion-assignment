@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  width: 75vw;
+  margin-left: 7vw;
+  margin-right: 9vw;
+}
+
+.search {
+    margin-left: auto;
+    padding: 0;
+}
