@@ -1,20 +1,19 @@
 import React from 'react'
 import { AiOutlineHeart } from 'react-icons/ai'
 import './housecard.css'
-import image from './house.jpeg'
 import { BiBed, BiBath } from 'react-icons/bi'
 import { IoTabletLandscapeOutline } from 'react-icons/io5'
 
-const HouseCard = () => {
+const HouseCard = ({ product }) => {
   return (
     <div className='house-card'>
-        <img src={image} alt="" />
+        <img src={product.img} alt="" />
         <div className="price">
-           <p><span>$505</span>/month</p>
+           <p><span>${product.price}</span>/month</p>
            <AiOutlineHeart className='heart' size={21} /> 
         </div>
-        <h3 className='house-name'>Palm Harbor</h3>
-        <p className='house-address'>2699, Green Valley, Highland Lake, FL</p>
+        <h3 className='house-name'>{product.name}</h3>
+        <p className='house-address'>2699, Green Valley, Highland Lake, {product.location}</p>
         <hr />
         <div className="details">
         <div className="item"><BiBed className='icon' /><p>3 Beds</p></div>
